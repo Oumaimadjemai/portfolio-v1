@@ -15,7 +15,8 @@ import emploi from "../assets/projects/horapay/emploi.jpg"
 import consultation from "../assets/projects/horapay/consultation.jpg"
 import dash from "../assets/projects/assirem/dash.png"
 import hero from "../assets/projects/portfoliov1/hero.png"
-
+import dashboard_loan from "../assets/projects/loan/dashboard.png"
+import result from "../assets/projects/loan/result.png"
 export default function Projects() {
   const projects = [
     {
@@ -95,6 +96,25 @@ export default function Projects() {
       ],
       github: "https://github.com/Oumaimadjemai/demo_back.git",
       demo: "",
+    },
+    {
+      title: "Loan Desktop",
+      subtitle: "Loan Eligibility Calculation Application",
+      period: "December 2025",
+      description:
+        "A cross-platform desktop application for calculating loan eligibility based on salary, charges, duration, and bank rates.",
+      tags: ["Electron", "React", "Django REST Framework", "Git & GitHub"],
+      github: "https://github.com/Oumaimadjemai/loan_front.git",
+      demo: "https://loan-front-aqno.onrender.com",
+      images: [dashboard_loan, result],
+      color: "from-cyan-500 to-blue-600",
+      highlights: [
+        "Loan eligibility calculation based on salary and monthly charges",
+        "Automatic computation of borrowing capacity and monthly payments",
+        "Support for custom bank interest rates and loan durations",
+        "Real-time calculation with a clean and intuitive UI",
+        "Cross-platform desktop support (Windows, macOS, Linux)",
+      ],
     },
     {
       title: "CodeGrad",
