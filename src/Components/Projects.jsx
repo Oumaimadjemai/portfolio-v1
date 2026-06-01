@@ -107,7 +107,7 @@ export default function Projects() {
       github: "https://github.com/Oumaimadjemai/loan_front.git",
       demo: "https://loan-front-aqno.onrender.com",
       images: [dashboard_loan, result],
-      color: "from-cyan-500 to-blue-600",
+      color: "from-[#121358] to-blue-600",
       highlights: [
         "Loan eligibility calculation based on salary and monthly charges",
         "Automatic computation of borrowing capacity and monthly payments",
