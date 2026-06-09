@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Code, Server, Database, Wrench, Boxes, Users } from "lucide-react";
+import { Code, Server, Database, Wrench, Boxes, Users, Phone } from "lucide-react";
 
 export default function Skills() {
   const skillCategories = [
@@ -7,15 +7,14 @@ export default function Skills() {
       icon: Code,
       title: "Programming Languages",
       color: "from-cyan-500 to-blue-500",
-      skills: ["Python", "Java", "JavaScript"],
+      skills: ["Python", "Java", "JavaScript","Typescript", "Dart"],
     },
     {
       icon: Server,
       title: "Backend Development",
       color: "from-purple-500 to-pink-500",
       skills: [
-        "Django",
-        "Django Rest Framework",
+        "NodeJs","NestJs/ExpressJs",
         "SpringBoot",
         "Rest APIs",
         "JWT authentication",
@@ -27,6 +26,12 @@ export default function Skills() {
       title: "Frontend Development",
       color: "from-green-500 to-emerald-500",
       skills: ["React.js", "Material UI", "Tailwind CSS", "Responsive Design"],
+    },
+    {
+      icon: Code,
+      title: "Mobile Development",
+      color: "from-purple-500 to-indigo-500",
+      skills: ["Flutter", "Dart", "Cross-platform Development","Rest APIs Integration","Local Storage"],
     },
     {
       icon: Database,
@@ -50,7 +55,7 @@ export default function Skills() {
       icon: Boxes,
       title: "Distributed Systems",
       color: "from-pink-500 to-rose-500",
-      skills: ["Apache Kafka", "Redis", "WebSockets"],
+      skills: ["Apache Kafka","RabbitMQ","Redis", "WebSockets","SSE"],
     },
   ];
 

@@ -19,15 +19,15 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "o.djemai@esi-sba.dz",
-      href: "mailto:o.djemai@esi-sba.dz",
+      value: "t.mostefaoui@esi-sba.dz",
+      href: "mailto:t.mostefaoui@esi-sba.dz",
       color: "from-cyan-500 to-blue-500",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "05-52-17-42-33",
-      href: "tel:0552174233",
+      value: "05-53-24-68-76",
+      href: "tel:0553246876",
       color: "from-purple-500 to-pink-500",
     },
     {
@@ -39,7 +39,7 @@ export default function Contact() {
   ];
 
   const socialLinks = [
-    { icon: FaGithub, label: "GitHub", color: "from-gray-600 to-gray-800", url: "https://github.com/Oumaimadjemai" },
+    { icon: FaGithub, label: "GitHub", color: "from-gray-600 to-gray-800", url: "https://github.com/toufik-mostefaoui" },
     { icon: FaLinkedin, label: "LinkedIn", color: "from-blue-600 to-blue-800", url: "https://linkedin.com/in/djemai-oumima-8b9066267" },
   ];
 
@@ -363,10 +363,7 @@ const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
           className="mt-20 text-center text-gray-500"
         >
           <p className="text-lg">
-            © 2026 Djemai Oumima. Built with{" "}
-            <span className="text-transparent bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text">
-              ❤️
-            </span>
+            © 2026 Mostefaoui toufik. All rights reserved.
           </p>
         </motion.div>
       </div>

@@ -30,9 +30,9 @@ export default function Navigation({ activeSection }) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-lg md:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent"
+            className="text-lg md:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-indigo-500 to-blue-500 bg-clip-text text-transparent"
           >
-            DJEMAI OUMIMA
+            MOSTEFAOUI TOUFIK
           </motion.div>
 
           <div className="hidden md:flex gap-2 lg:gap-6">

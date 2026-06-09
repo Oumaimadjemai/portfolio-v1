@@ -16,7 +16,7 @@ export default function Experience() {
       ],
     },
     {
-      role: "IT Intern",
+      role: "IT Intern – Algeria Telecom",
       company: "EPH Djilali Bounaama",
       location: "Ksar Chellala, Tiaret, Algeria",
       period: "September 2023",

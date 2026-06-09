@@ -30,7 +30,7 @@ export default function Hero() {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-5xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-cyan-200 to-purple-300 bg-clip-text text-transparent"
           >
-            DJEMAI OUMIMA
+            MOSTEFAOUI TOUFIK
           </motion.h1>
 
           <motion.p

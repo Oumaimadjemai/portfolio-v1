@@ -20,11 +20,11 @@ import result from "../assets/projects/loan/result.png"
 export default function Projects() {
   const projects = [
     {
-      title: "TripHubDZ",
-      subtitle: "White-Label SaaS Platform for Travel Agencies",
+      title: "SILA DZ",
+      subtitle: " B2B Import & Procurement Platform (Founder & Full-Stack Developer)",
       period: "Graduation Project (january 2026 - Present)",
       description:
-        "Designed and developed a multi-tenant SaaS platform for travel agency management with white-label architecture allowing each agency to have its own branded environment.",
+        "Designed and developed a B2B platform connecting Algerian businesses with international suppliers.",
       tags: [
         "Microservices",
         "Docker",
@@ -53,9 +53,9 @@ export default function Projects() {
       demo: "https://triphubdz.com",
     },
     {
-      title: "Portfolio v1",
-      subtitle: "My Personal Portfolio Website",
-      period: "january 2026 - Present",
+      title: "GeoAlert",
+      subtitle: "Real-Time Geolocated Alert Platform (Backend Developer)",
+      period: "February – May 2025",
       description:
         "My personal portfolio website showcasing my projects, skills, and experience with a modern design and interactive features.",
       tags: [
@@ -77,7 +77,7 @@ export default function Projects() {
       demo: "https://portfolio-sooty-kappa-11.vercel.app/",
     },
     {
-      title: "Dar Lokman",
+      title: "Mobile E-Commerce Application",
       subtitle: "Stock Management Software",
       period: "June – August 2025",
       description:
@@ -98,9 +98,9 @@ export default function Projects() {
       demo: "",
     },
     {
-      title: "Loan Desktop",
-      subtitle: "Loan Eligibility Calculation Application",
-      period: "December 2025",
+      title: "Tawaf ",
+      subtitle: "Pilgrimage Management Platform (Backend Developer)",
+      period: "February – May 2024",
       description:
         "A cross-platform desktop application for calculating loan eligibility based on salary, charges, duration, and bank rates.",
       tags: ["Electron", "React", "Django REST Framework", "Git & GitHub"],
